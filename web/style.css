@@ -1,0 +1,68 @@
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+}
+.hero-section {
+    background: url('images/fondo.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero-section p {
+    font-size: 1.25rem;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: white;
+}
+footer {
+    background: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+div#searchRol {
+    display: flex;
+}
+
+div#searchRol select {
+    margin-right: 20px;
+}
+
+div#inicio {
+    margin-bottom: 200px;
+}
+
+main {
+    padding: 0px 30px 30px;
+}
+
+#icono_plus {
+    color: white;
+}
+
+#add_person {
+    float: right;
+    margin-bottom: 20px;
+}
+
+#boton_formulario {
+    float: right;
+}
